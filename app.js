@@ -35,7 +35,6 @@ const elements = {
   emptyState: document.querySelector("#emptyState"),
 };
 
-const hadLocalState = Boolean(localStorage.getItem(storageKey));
 let state = loadLocalState() || defaultState();
 normalizeState();
 let calendarWeekStart = dateKey(startOfWeek(parseDateKey(state.selectedDate || today)));
@@ -123,11 +122,15 @@ function saveState() {
 
 async function loadStateFromJson() {
   try {
-    const response = await fetch(dataFile, { cache: "no-store" });
+    const response = await fetch(`${dataFile}?v=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) return;
 
     const jsonState = await response.json();
     if (!jsonState || !jsonState.days) return;
+    const jsonDayCount = Object.keys(jsonState.days).length;
+    const localDayCount = Object.keys(state.days || {}).length;
+    if (jsonDayCount < localDayCount) return;
+
     state = jsonState;
     normalizeState();
     calendarWeekStart = dateKey(startOfWeek(parseDateKey(state.selectedDate || today)));
@@ -559,6 +562,4 @@ elements.deleteDateButton.addEventListener("click", () => {
 });
 
 render();
-if (!hadLocalState) {
-  loadStateFromJson();
-}
+loadStateFromJson();
