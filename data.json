@@ -1,7 +1,246 @@
 {
   "selectedDate": "2026-07-03",
   "days": {
+    "2026-07-01": {
+      "tasks": [
+        {
+          "id": "3b468a3e-cafa-44f1-a7ac-116ab0e62732",
+          "name": "準時回家不亂晃",
+          "scores": {
+            "蕃茄": "circle",
+            "LuLu": "circle"
+          },
+          "assignees": [
+            "蕃茄",
+            "LuLu"
+          ]
+        },
+        {
+          "id": "f602fa95-97d0-4bc3-9314-988177ac106e",
+          "name": "折衣服",
+          "scores": {
+            "蕃茄": "circle",
+            "LuLu": "circle"
+          },
+          "assignees": [
+            "蕃茄",
+            "LuLu"
+          ]
+        },
+        {
+          "id": "f814325c-f68e-461e-baf9-aad42772f429",
+          "name": "把衣服收好",
+          "scores": {
+            "蕃茄": "triangle",
+            "LuLu": "triangle"
+          },
+          "assignees": [
+            "蕃茄",
+            "LuLu"
+          ]
+        },
+        {
+          "id": "4ca3c2d2-a31e-4daf-8484-43be81693703",
+          "name": "收拾書桌",
+          "scores": {
+            "蕃茄": "cross",
+            "LuLu": "cross"
+          },
+          "assignees": [
+            "蕃茄",
+            "LuLu"
+          ]
+        },
+        {
+          "id": "f073b218-3fd3-4495-a57b-516522a0d89d",
+          "name": "維持家中整潔",
+          "scores": {
+            "蕃茄": "cross",
+            "LuLu": "cross"
+          },
+          "assignees": [
+            "蕃茄",
+            "LuLu"
+          ]
+        },
+        {
+          "id": "3b574fbc-024d-4f10-baf2-25e3c513d520",
+          "name": "完成佳音作業",
+          "scores": {
+            "蕃茄": null,
+            "LuLu": "cross"
+          },
+          "assignees": [
+            "LuLu"
+          ]
+        },
+        {
+          "id": "e94b631b-e675-481c-acf3-4dcfcf90acc5",
+          "name": "16:00 到婆家",
+          "scores": {
+            "蕃茄": "circle",
+            "LuLu": "circle"
+          },
+          "assignees": [
+            "蕃茄",
+            "LuLu"
+          ]
+        },
+        {
+          "id": "aeb59138-7ed1-4def-a26e-7c7b5b9ad054",
+          "name": "17:45 上文成",
+          "scores": {
+            "蕃茄": "circle",
+            "LuLu": null
+          },
+          "assignees": [
+            "蕃茄"
+          ]
+        }
+      ],
+      "routines": {
+        "蕃茄": {
+          "morning": "8-10 田徑暑訓",
+          "noon": "98 號",
+          "night": "18-21 文城英文"
+        },
+        "LuLu": {
+          "morning": "8-10 田徑暑訓",
+          "noon": "98 號",
+          "night": "婆婆家"
+        }
+      }
+    },
+    "2026-07-02": {
+      "tasks": [
+        {
+          "id": "4e345aed-1273-4073-84d7-eb7c1905d6ea",
+          "name": "準時回家不亂晃",
+          "scores": {
+            "蕃茄": null,
+            "LuLu": "circle"
+          },
+          "assignees": [
+            "LuLu"
+          ]
+        },
+        {
+          "id": "17496124-4179-4de2-b276-52f281ddfa0d",
+          "name": "完成文城 / 佳音英文作業",
+          "assignees": [
+            "蕃茄",
+            "LuLu"
+          ],
+          "scores": {
+            "蕃茄": "cross",
+            "LuLu": "cross"
+          }
+        }
+      ],
+      "routines": {
+        "蕃茄": {
+          "morning": "9-17 電視奇幻之旅",
+          "noon": "",
+          "night": "跟媽媽做睫毛"
+        },
+        "LuLu": {
+          "morning": "8-10 田徑暑訓",
+          "noon": "婆婆家",
+          "night": "婆婆家"
+        }
+      }
+    },
     "2026-07-03": {
+      "routines": {
+        "蕃茄": {
+          "morning": "8-10 田徑暑訓",
+          "noon": "婆婆家",
+          "night": "18:00 生長科回診"
+        },
+        "LuLu": {
+          "morning": "8-10 田徑暑訓\n9-12 馬明潭 ",
+          "noon": "婆婆家",
+          "night": "19-21 佳音英文"
+        }
+      },
+      "tasks": [
+        {
+          "id": "f56472d8-5ff7-4cfa-8f52-33c97ea003f3",
+          "name": "準時回家不亂晃",
+          "assignees": [
+            "蕃茄",
+            "LuLu"
+          ],
+          "scores": {
+            "蕃茄": null,
+            "LuLu": null
+          }
+        },
+        {
+          "id": "eccf8691-052e-424d-8c6d-d559eb68157d",
+          "name": "完成文城 / 佳音英文作業",
+          "assignees": [
+            "蕃茄",
+            "LuLu"
+          ],
+          "scores": {
+            "蕃茄": null,
+            "LuLu": null
+          }
+        },
+        {
+          "id": "a7257fdc-d30a-42e8-bc7a-30b355067359",
+          "name": "背文城 / 佳音單字",
+          "assignees": [
+            "蕃茄",
+            "LuLu"
+          ],
+          "scores": {
+            "蕃茄": null,
+            "LuLu": null
+          }
+        }
+      ]
+    },
+    "2026-07-04": {
+      "routines": {
+        "蕃茄": {
+          "morning": "",
+          "noon": "14-17 文城理化",
+          "night": "18-21 文城數學 "
+        },
+        "LuLu": {
+          "morning": "",
+          "noon": "",
+          "night": ""
+        }
+      },
+      "tasks": [
+        {
+          "id": "545cfb02-df46-456c-bbb5-c168d3138efe",
+          "name": "刷廁所",
+          "assignees": [
+            "蕃茄"
+          ],
+          "scores": {
+            "蕃茄": null,
+            "LuLu": null
+          }
+        },
+        {
+          "id": "8cedfa32-e26b-4001-9101-943f0ad06843",
+          "name": "拖地",
+          "assignees": [
+            "LuLu"
+          ],
+          "scores": {
+            "蕃茄": null,
+            "LuLu": null
+          }
+        }
+      ]
+    },
+    "2026-07-05": {
       "routines": {
         "蕃茄": {
           "morning": "",
@@ -14,35 +253,112 @@
           "night": ""
         }
       },
-      "tasks": [
-        {
-          "id": "task-reading-20-min",
-          "name": "閱讀 20 分鐘",
-          "assignees": ["蕃茄", "LuLu"],
-          "scores": {
-            "蕃茄": null,
-            "LuLu": null
-          }
+      "tasks": []
+    },
+    "2026-08-06": {
+      "routines": {
+        "蕃茄": {
+          "morning": "福隆二日遊",
+          "noon": "",
+          "night": ""
         },
-        {
-          "id": "task-dance-15-min",
-          "name": "運動或跳舞 15 分鐘",
-          "assignees": ["蕃茄", "LuLu"],
-          "scores": {
-            "蕃茄": null,
-            "LuLu": null
-          }
-        },
-        {
-          "id": "task-clean-room",
-          "name": "整理自己的房間",
-          "assignees": ["蕃茄", "LuLu"],
-          "scores": {
-            "蕃茄": null,
-            "LuLu": null
-          }
+        "LuLu": {
+          "morning": "福隆二日遊",
+          "noon": "",
+          "night": ""
         }
-      ]
+      },
+      "tasks": []
+    },
+    "2026-08-07": {
+      "routines": {
+        "蕃茄": {
+          "morning": "福隆二日遊",
+          "noon": "",
+          "night": ""
+        },
+        "LuLu": {
+          "morning": "福隆二日遊",
+          "noon": "",
+          "night": ""
+        }
+      },
+      "tasks": []
+    },
+    "2026-08-01": {
+      "routines": {
+        "蕃茄": {
+          "morning": "跟阿常露營",
+          "noon": "",
+          "night": ""
+        },
+        "LuLu": {
+          "morning": "跟阿常露營",
+          "noon": "",
+          "night": ""
+        }
+      },
+      "tasks": []
+    },
+    "2026-08-02": {
+      "routines": {
+        "蕃茄": {
+          "morning": "跟阿常露營",
+          "noon": "",
+          "night": ""
+        },
+        "LuLu": {
+          "morning": "跟阿常露營",
+          "noon": "",
+          "night": ""
+        }
+      },
+      "tasks": []
+    },
+    "2026-08-20": {
+      "routines": {
+        "蕃茄": {
+          "morning": "高雄鈴鹿賽道樂園",
+          "noon": "",
+          "night": ""
+        },
+        "LuLu": {
+          "morning": "高雄鈴鹿賽道樂園",
+          "noon": "",
+          "night": ""
+        }
+      },
+      "tasks": []
+    },
+    "2026-08-21": {
+      "routines": {
+        "蕃茄": {
+          "morning": "高雄鈴鹿賽道樂園",
+          "noon": "",
+          "night": ""
+        },
+        "LuLu": {
+          "morning": "高雄鈴鹿賽道樂園",
+          "noon": "",
+          "night": ""
+        }
+      },
+      "tasks": []
+    },
+    "2026-08-31": {
+      "routines": {
+        "蕃茄": {
+          "morning": "開學",
+          "noon": "",
+          "night": ""
+        },
+        "LuLu": {
+          "morning": "開學",
+          "noon": "",
+          "night": ""
+        }
+      },
+      "tasks": []
     }
   }
 }
