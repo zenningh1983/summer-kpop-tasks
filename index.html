@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Summer Stage Tasks</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero">
+        <div class="hero__copy">
+          <p class="eyebrow">SUMMER DAILY MISSION</p>
+          <h1>2026 蕃茄 & LuLu 暑假任務</h1>
+          <div class="hero-calendar">
+            <div class="week-calendar-toolbar">
+              <button id="prevWeekButton" type="button" aria-label="上一週">‹</button>
+              <span id="weekRangeLabel"></span>
+              <button id="nextWeekButton" type="button" aria-label="下一週">›</button>
+            </div>
+            <div class="week-calendar" id="calendarList"></div>
+          </div>
+        </div>
+        <div class="stage-card" aria-label="KPOP style score board">
+          <div class="stage-card__lights"></div>
+          <div class="album-art">
+            <strong>MISSION</strong>
+          </div>
+          <div class="legend">
+            <span><b class="mark mark--circle">○</b> 達標</span>
+            <span><b class="mark mark--triangle">△</b> 有做</span>
+            <span><b class="mark mark--cross">×</b> 沒做</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="controls">
+        <form id="dateForm" class="date-form">
+          <label for="dateInput">新增日期</label>
+          <div class="inline-control">
+            <input id="dateInput" name="date" type="date" required />
+            <button type="submit">新增</button>
+          </div>
+        </form>
+
+        <form id="taskForm" class="task-form">
+          <label for="taskInput">新增每日任務</label>
+          <div class="inline-control">
+            <input id="taskInput" name="task" type="text" placeholder="例如：閱讀 20 分鐘、練琴、收玩具" autocomplete="off" required />
+            <div id="taskAssignees" class="assignee-toggle" aria-label="任務對象">
+              <label>
+                <input type="checkbox" value="蕃茄" checked />
+                <span>蕃茄</span>
+              </label>
+              <label>
+                <input type="checkbox" value="LuLu" checked />
+                <span>LuLu</span>
+              </label>
+            </div>
+            <button type="submit">加入</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="dashboard">
+        <aside class="sidebar">
+          <div class="section-title">
+            <span>Dates</span>
+            <small id="dateCount">0 天</small>
+          </div>
+          <div id="dateList" class="date-list"></div>
+        </aside>
+
+        <section class="panel">
+          <div class="panel__header">
+            <div>
+              <p class="eyebrow">SELECTED DAY</p>
+              <h2 id="selectedDateTitle">尚未選擇日期</h2>
+            </div>
+            <div class="panel-actions">
+              <button id="exportDataButton" class="ghost-button" type="button">匯出 JSON</button>
+              <button id="deleteDateButton" class="ghost-button" type="button">刪除此日</button>
+            </div>
+          </div>
+
+          <div class="score-grid" id="scoreGrid"></div>
+
+          <section class="routine-section">
+            <div class="section-title">
+              <span>每日作息</span>
+            </div>
+            <div id="routineGrid" class="routine-grid"></div>
+          </section>
+
+          <div class="task-table-wrap">
+            <table class="task-table">
+              <thead>
+                <tr>
+                  <th>任務</th>
+                  <th>蕃茄</th>
+                  <th>LuLu</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody id="taskRows"></tbody>
+            </table>
+            <div id="emptyState" class="empty-state">
+              <strong>今天還沒有任務</strong>
+              <span>選擇日期後，從上方輸入框加入每日任務。</span>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+{
+  "selectedDate": "2026-07-03",
+  "days": {
+    "2026-07-03": {
+      "routines": {
+        "蕃茄": {
+          "morning": "",
+          "noon": "",
+          "night": ""
+        },
+        "LuLu": {
+          "morning": "",
+          "noon": "",
+          "night": ""
+        }
+      },
+      "tasks": [
+        {
+          "id": "task-reading-20-min",
+          "name": "閱讀 20 分鐘",
+          "assignees": ["蕃茄", "LuLu"],
+          "scores": {
+            "蕃茄": null,
+            "LuLu": null
+          }
+        },
+        {
+          "id": "task-dance-15-min",
+          "name": "運動或跳舞 15 分鐘",
+          "assignees": ["蕃茄", "LuLu"],
+          "scores": {
+            "蕃茄": null,
+            "LuLu": null
+          }
+        },
+        {
+          "id": "task-clean-room",
+          "name": "整理自己的房間",
+          "assignees": ["蕃茄", "LuLu"],
+          "scores": {
+            "蕃茄": null,
+            "LuLu": null
+          }
+        }
+      ]
+    }
+  }
+}
